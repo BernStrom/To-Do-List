@@ -11,14 +11,14 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", (req, res) => {
-    let today = new Date();
-    let options = {
+    const today = new Date();
+    const options = {
         weekday: "long",
         day: "numeric",
         month: "long"
     };
 
-    let currentDay = today.toLocaleDateString("en-US", options);
+    const currentDay = today.toLocaleDateString("en-US", options);
 
     res.render("list", {listTitle: currentDay, newListItem: items});
 });
@@ -28,7 +28,7 @@ app.get("/work", (req, res) => {
 });
 
 app.post("/", (req, res) => {
-    let item = req.body.newItem;
+    const item = req.body.newItem;
 
     if (req.body.list === "Work") {
         workItems.push(item);
