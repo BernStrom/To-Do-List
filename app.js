@@ -8,14 +8,14 @@ const userController = require(`${__dirname}/controllers/userController`);
 const app = express();
 const adminAccess = process.env.MONGO_DB_ACCESS;
 
-// Connection to MongoDB database using Mongoose.
+// Connection to MongoDB Atlas database cluster using Mongoose.
 mongoose.connect(`mongodb+srv://admin-bern:${adminAccess}@cluster0.c5v85.mongodb.net/todolistDB`, {
     useNewUrlParser: true, 
     useUnifiedTopology: true, 
     useFindAndModify: false
 });
 
-app.set("view engine", "ejs");
+app.set("view engine", "ejs"); // Settings to read EJS files in views directory.
 
 app.use(express.static("public")); // Serve static files such as styles & images from the public directory.
 app.use(bodyParser.urlencoded({extended: true}));
