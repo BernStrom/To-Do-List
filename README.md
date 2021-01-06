@@ -9,7 +9,7 @@
 <br />
 
 <h1 align="center">
-  TO-DO List - <em>Powered by MongoDB with Mongoose</em>
+  <em>TO-DO List</em>
 </h1>
 
 <p align="center">
@@ -32,11 +32,13 @@ The live website is deployed through Heroku and feel free to check it out [here]
 
 * Deploy the database to MongoDB Atlas and the web app using a PaaS such as Heroku, etc.
 
+<br />
+
 **Notes:**
 
-**_MongoDB with Mongoose was chosen for this project database in an effort to learn more and gain a better understanding of its platform and how NoSQL work in relation to PostgreSQL_**
+1. **_MongoDB with Mongoose was chosen for this project database in an effort to learn more and gain a better understanding of its platform and how NoSQL work in relation to PostgreSQL_**
 
-**_Custom lists creation is available through simply typing a list name of your choice in the URL of the homepage. i.e, 'https://salty-hamlet-84531.herokuapp.com/app-ideas' - Replace "app-ideas" with any name you wish for your list and it generate a brand new list that's seperate from the homepage list._**
+2. **_Custom lists creation is available through simply typing a list name of your choice in the URL of the homepage. i.e, 'https://salty-hamlet-84531.herokuapp.com/app-ideas' - Replace "app-ideas" with any name you wish for your list and it generate a brand new list that's seperate from the homepage list._**
 
 ## :gear: Technical Components
 
