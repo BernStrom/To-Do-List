@@ -9,7 +9,7 @@
 <br />
 
 <h1 align="center">
-  To-Do List - <em>Powered by MongoDB with Mongoose</em>
+  TO-DO List - <em>Powered by MongoDB with Mongoose</em>
 </h1>
 
 <p align="center">
