@@ -20,7 +20,9 @@
 
 A simple To-Do list web app to log your daily task, with a hidden feature that allow users to build unlimited list with their own custom list name on-the-fly. Built with Express and Mongoose, an elegant schema-based solution to model application data with the MongoDB database on the server-side.
 
-The live website is deployed through Heroku and feel free to check it out [here](https://salty-hamlet-84531.herokuapp.com/ "To-Do List")! This project is meant for learning and practice working with backend technologies such as Express and MongoDB, hence the client side and its functionality are kept to a bare minumum. Nevertheless, feedbacks are always highly valued 😇
+The live website is deployed through Heroku and feel free to check it out [here](https://salty-hamlet-84531.herokuapp.com/ "To-Do List")! 
+
+This project is meant for learning and practice working with backend technologies such as Express and MongoDB, hence the client side and its functionality are kept to a bare minumum. Nevertheless, feedbacks are always highly valued 😇
 
 ## :pushpin: Objectives
 
